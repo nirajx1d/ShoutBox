@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#container {
+	background: #333;
+	border-radius: 8px;
+	opacity: 0.9;
+	margin: 10px auto;
+	overflow: auto;
+	width: 60%;
+	min-height: 600px;
+}
+
+header h1 {
+	color: #4abdac;
+	font-size: 36px;
+	padding: 15px 0 10px 10px;
+	border-bottom: 1px solid #fff;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	line-height: 1.6em;
+	user-select: none;
+}
+
+header h1 span {
+	color: #f7b733;
+}
+
+#shouts {
+	width: 90%;
+	background: #f4f4f4;
+	height: 400px;
+	margin: 20px auto;
+	overflow: auto;
+	border-radius: 4px;
+}
+
+.shout {
+	list-style: none;
+	padding: 8px;
+	border-bottom: 1px #ccc dotted;
+}
+
+.shout span {
+	color: #aaa;
+}
+
+#input {
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 0;
+}
+
+#input input[type='text'] {
+	height: 25px;
+	width: 48%;
+	padding: 3px;
+	margin-bottom: 20px;
+	border: 1px solid #666;
+}
+
+#input .shout-btn {
+	padding: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	margin: 0 auto 20px auto;
+	color: #fff;
+	font-size: 1.2em;
+	background: #f7b733;
+	border: 0;
+	line-height: 2em;
+	transition: 1s;
+	border-radius: 4px;
+}
+
+#input .shout-btn:hover {
+	pointer:default;
+	background: #4abdac;
+}
+
+.error {
+	text-align: center;
+	color: #fff;
+	background: #fc4a1a;
+	padding:5px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	#input input[type='text'] {
+		width: 98%;
+	}
+	#container {
+		width: 80%;
+	}
+}
