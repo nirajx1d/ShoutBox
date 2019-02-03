@@ -1,7 +1,7 @@
 <?php
 	$server ='localhost';
-	$user = 'root';
-	$pass = 'niraj@123';
+	$user = 'YOUR_USERNAME';
+	$pass = 'YOUR_PASSWORD';
 	$db = 'shoutit';
 
 	//Connect to mysql database
